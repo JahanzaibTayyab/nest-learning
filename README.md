@@ -31,3 +31,33 @@ nest g controller cats
 ```
 
 command.
+
+# Providers
+
+[We will follow this Controller Tutorial in detail](https://docs.nestjs.com/providers)
+
+Providers are a fundamental concept in Nest. Many of the basic Nest classes may be treated as a provider – services, repositories, factories, helpers, and so on. The main idea of a provider is that it can be injected as a dependency; this means objects can create various relationships with each other, and the function of "wiring up" instances of objects can largely be delegated to the Nest runtime system.
+
+### HINT
+
+To create a controller using the CLI, simply execute the
+
+```bash
+nest g service cats
+```
+
+command.
+
+# Modules
+
+A module is a class annotated with a @Module() decorator. The @Module() decorator provides metadata that Nest makes use of to organize the application structure.
+
+### HINT
+
+To create a controller using the CLI, simply execute the
+
+```bash
+nest g module cats
+```
+
+command.
