@@ -15,10 +15,6 @@ export class MessagesController {
 
   @Post()
   async createMessage(@Body() body: CreateMessageDto): Promise<string[]> {
-    console.log(
-      '🚀 ~ file: messages.controller.ts:17 ~ MessagesController ~ createMessage ~ body:',
-      body,
-    );
     return [''];
   }
 }
